@@ -21,7 +21,7 @@ const BarRestoSlider = () => {
     <div className="container-fluid header bg-white p-0 pt-5">
     <div className="row g-0 align-items-center flex-column-reverse flex-md-row">
         <div className="col-md-6 p-5 mt-lg-5">
-            <h1 className="display-6 animated fadeIn mb-4 pt-4">Enjoy<span class="text-primary">Delicious Food</span> in River Classe Restaurant</h1>
+            <h1 className="display-6 animated fadeIn mb-4 pt-4">Enjoy<span className="text-primary">Delicious Food</span> in River Classe Restaurant</h1>
             <p className="animated fadeIn mb-4 pb-2">Food prepared by proffesional chef.</p><p>Located in Rulindo district</p>
             <a href="" className="btn btn-primary py-3 px-5 me-3 animated fadeIn">Show More</a>
         </div>

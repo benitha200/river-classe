@@ -31,30 +31,29 @@ const products = [
 
 const addresses = ['1 MUI Drive', 'Reactville', 'Anytown', '99999', 'USA'];
 const payments = [
-  { name: 'Card type', detail: 'Visa' },
-  { name: 'Card holder', detail: 'Mr John Smith' },
-  { name: 'Card number', detail: 'xxxx-xxxx-xxxx-1234' },
-  { name: 'Expiry date', detail: '04/2024' },
-];
-
+    { name: 'Name', detail: 'ISINGIZWE Aristide' },
+    { name: 'Location', detail: 'Nyarugenge' },
+    { name: 'Mode of payment', detail: 'MTN Mobile Money' },
+    { name: 'Amount', detail: '15,000' },
+  ];
 export default function Review() {
   return (
     <React.Fragment>
       <Typography variant="h6" gutterBottom>
-        Order summary
+        Summary 
       </Typography>
    
       <Grid container spacing={2}>
         
-        <Grid item container direction="column" xs={12} sm={6}>
-          <Typography variant="h6" gutterBottom sx={{ mt: 2 }}>
-            Payment details
-          </Typography>
-          <Grid container>
+        <Grid item container direction="column" xs={12} sm={12}>
+          {/* <Typography variant="h6" gutterBottom sx={{ mt: 2 }}>
+               Payment details 
+          </Typography> */}
+          <Grid container style={{justifyContent:'center'}}>
             {payments.map((payment) => (
               <React.Fragment key={payment.name}>
                 <Grid item xs={6}>
-                  <Typography gutterBottom>{payment.name}</Typography>
+                  <Typography gutterBottom >{payment.name}</Typography>
                 </Grid>
                 <Grid item xs={6}>
                   <Typography gutterBottom>{payment.detail}</Typography>

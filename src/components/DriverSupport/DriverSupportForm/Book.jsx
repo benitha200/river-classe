@@ -80,7 +80,7 @@ export default function Book() {
           <Typography component="h1" variant="h4" align="center">
             Get a Driver
           </Typography>
-          <Stepper activeStep={activeStep} sx={{ pt: 3, pb: 5 }}>
+          <Stepper activeStep={activeStep} sx={{ pt: 3, pb: 5}}>
             {steps.map((label) => (
               <Step key={label}>
                 <StepLabel>{label}</StepLabel>
@@ -93,9 +93,7 @@ export default function Book() {
                 Thank you for working with us.
               </Typography>
               <Typography variant="subtitle1">
-                Your order number is #2001539. We have emailed your order
-                confirmation, and will send you an update when your order has
-                shipped.
+              Our driver will arrive in 30 minutes.
               </Typography>
             </React.Fragment>
           ) : (
@@ -103,7 +101,7 @@ export default function Book() {
               {getStepContent(activeStep)}
               <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
                 {activeStep !== 0 && (
-                  <Button onClick={handleBack} sx={{ mt: 3, ml: 1 }}>
+                  <Button style={{color:''}} onClick={handleBack} sx={{ mt: 3, ml: 1 }}>
                     Back
                   </Button>
                 )}
@@ -113,7 +111,7 @@ export default function Book() {
                   onClick={handleNext}
                   sx={{ mt: 3, ml: 1 }}
                 >
-                  {activeStep === steps.length - 1 ? 'Place order' : 'Next'}
+                  {activeStep === steps.length - 1 ? 'Confirm' : 'Next'}
                 </Button>
               </Box>
             </React.Fragment>

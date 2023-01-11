@@ -30,10 +30,10 @@ const products = [
 ];
 const addresses = ['1 MUI Drive', 'Reactville', 'Anytown', '99999', 'USA'];
 const payments = [
-  { name: 'Card type', detail: 'Visa' },
-  { name: 'Card holder', detail: 'Mr John Smith' },
-  { name: 'Card number', detail: 'xxxx-xxxx-xxxx-1234' },
-  { name: 'Expiry date', detail: '04/2024' },
+  { name: 'Name', detail: 'ISINGIZWE Aristide' },
+  { name: 'Location', detail: 'Nyarugenge' },
+  { name: 'Mode of payment', detail: 'MTN Mobile Money' },
+  { name: 'Amount', detail: '15,000' },
 ];
 
 export default function Review() {
@@ -66,7 +66,7 @@ export default function Review() {
         </Grid>
         <Grid item container direction="column" xs={12} sm={6}>
           <Typography variant="h6" gutterBottom sx={{ mt: 2 }}>
-            Payment details
+        
           </Typography>
           <Grid container>
             {payments.map((payment) => (

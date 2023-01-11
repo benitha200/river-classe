@@ -60,7 +60,7 @@ export default function AddressForm() {
             required
             id="city"
             name="city"
-            label="City"
+            label="Location"
             fullWidth
             autoComplete="shipping address-level2"
             variant="standard"

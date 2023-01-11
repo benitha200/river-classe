@@ -2,7 +2,7 @@
 :root {
     --primary: #153c33;
     --secondary: #FF6922;
-    --light: #EFFDF5;
+    --light: hsl(146, 78%, 96%);
     --dark: #0E2E50;
 }
 
@@ -12,6 +12,7 @@
     right: 45px;
     bottom: 45px;
     z-index: 99;
+    /* color: #44bda1; */
 }
 
 

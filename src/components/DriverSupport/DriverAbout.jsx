@@ -12,11 +12,11 @@ const DriverAbout = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                        <h1 className="mb-4">#1 Place To Find Proffesional Drivers</h1>
-                        <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                        <p><i className="fa fa-check text-primary me-3"></i>Tempor erat elitr rebum at clita</p>
-                        <p><i className="fa fa-check text-primary me-3"></i>Aliqu diam amet diam et eos</p>
-                        <p><i className="fa fa-check text-primary me-3"></i>Clita duo justo magna dolore erat amet</p>
+                        <h1 className="mb-4"> Place To Find Proffesional Drivers</h1>
+                        <p className="mb-4">River classe driver support is a company based in Rwanda, that offers Proffessional drivers to drive you anywhere anytime. Don't hesitate to contact us. </p>
+                        <p><i className="fa fa-check text-primary me-3"></i>Affordable Price</p>
+                        <p><i className="fa fa-check text-primary me-3"></i>Trustworthy Drivers</p>
+                        <p><i className="fa fa-check text-primary me-3"></i>Anytime & Anywhere</p>
                         <a className="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
                     </div>
                 </div>

@@ -60,7 +60,7 @@ export default function AddressForm() {
             required
             id="city"
             name="city"
-            label="City"
+            label="Location"
             fullWidth
             autoComplete="shipping address-level2"
             variant="standard"
@@ -70,7 +70,7 @@ export default function AddressForm() {
           <TextField
             id="state"
             name="state"
-            label="State/Province/Region"
+            label="Street"
             fullWidth
             variant="standard"
           />
@@ -80,7 +80,7 @@ export default function AddressForm() {
             required
             id="zip"
             name="zip"
-            label="Zip / Postal code"
+            label="Number of drivers"
             fullWidth
             autoComplete="shipping postal-code"
             variant="standard"
@@ -91,18 +91,18 @@ export default function AddressForm() {
             required
             id="country"
             name="country"
-            label="Country"
+            label="Contact"
             fullWidth
             autoComplete="shipping country"
             variant="standard"
           />
         </Grid>
-        <Grid item xs={12}>
-          <FormControlLabel
+        {/*<Grid item xs={12}>
+           <FormControlLabel
             control={<Checkbox color="secondary" name="saveAddress" value="yes" />}
             label="Use this address for payment details"
           />
-        </Grid>
+        </Grid> */}
       </Grid>
     </React.Fragment>
   );

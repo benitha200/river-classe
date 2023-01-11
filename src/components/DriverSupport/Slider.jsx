@@ -18,7 +18,7 @@ const Slider = ({handleClick}) => {
     //     }).init();
     //   }, [])
   return (
-    <div className="container-fluid header bg-white p-0 pt-5">
+    <div className="container-fluid header bg-white p-0 pt-5"><br/><br/>
     <div className="row g-0 align-items-center flex-column-reverse flex-md-row">
         <div className="col-md-6 p-5 mt-lg-5">
             <h1 className="display-6 animated fadeIn mb-4 pt-4">Find A <span class="text-primary">Proffessional Driver</span> To Drive you safe</h1>

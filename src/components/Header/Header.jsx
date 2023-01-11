@@ -26,7 +26,10 @@ const Header = () => {
                             <div className="">
                                 <img className="img-fluid" src={logo1} alt="Icon" style={{width: '75px', height: '75px', borderRadius:'50%'}}/>
                             </div>
-                            <h3 className="m-0 text-primary p-2">River Classe</h3>
+                            <div style={{display:'block'}}>
+                                <h2 className="m-0 pt-3 text-primary p-1">River Classe</h2><span className="m-0 " style={{color:'#0E2E50',fontWeight:'700',marginTop:'0px',fontSize:'0.9rem'}}> Group Ltd</span>
+                            </div>
+                            
                         </Link>
                         <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                             <span className="navbar-toggler-icon"></span>
